@@ -1,0 +1,6 @@
+#summary Introducion to the PyMei codebase, and how to contribute.
+#labels Featured,Phase-Implementation
+
+= Introduction =
+
+The PyMei codebase is (hopefully) extensible by the use of powerful plugins. Like PyMei, these are also written in Python. We hope people will adapt PyMei to their needs, and submit the plugins or patches that these actions create!
