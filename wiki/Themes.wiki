@@ -1,4 +1,5 @@
 #summary Introduction on how to contribute / create themes.
+#labels Featured,Phase-Implementation
 
 = Introduction =
 
