@@ -11,7 +11,7 @@ mkdir ~/.pymei
 cp /etc/pymei.config ~/.pymei/config
 }}}
 
-These are the options in pymei.config as of v0.1.
+These are the options in pymei.config as of ~v0.1.
 
 || *Option name* || *Type* || *Description* || *Default value* ||
 || debug || boolean || Wether or not PyMei spews debug stuff to stdout || false ||
@@ -30,11 +30,15 @@ These are the options in pymei.config as of v0.1.
 || *Option name* ||  *Type* || *Description* || *Default value* ||
 || <name of plugin> || dictionary || This is the name of a plugin that should be loaded, and the dictionary (map) are the configuration values passed to the plugin when it's loaded. || Clock: {} ||
 
-
 == videobrowser section ==
 
 || *Option name* ||  *Type* || *Description* || *Default value* ||
 || played_dir || path || Directory where we store persistent information in order to hilight directories that have been already played in the videobrowser. || /tmp/played ||
+
+== mplayer section ==
+
+|| *Option name* ||  *Type* || *Description* || *Default value* ||
+|| separate_window || boolean || Wether or not we should get mplayer to use its own window. If this is false, we use the -wid option to mplayer to make it use our window. || false ||
 
 == menu section ==
 
