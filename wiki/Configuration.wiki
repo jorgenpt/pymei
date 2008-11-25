@@ -1,6 +1,6 @@
-#summary Introduction to configuration file and its options.
+﻿#summary Introduction to configuration file and its options.
 #labels Featured,Phase-Deploy,Documentation
 
 = Introduction =
 
-The configuration file is in [http://json.org JSON format], and should be human readable & writable. Description of what the different options mean can be found below.
+The configuration file is in [http://www.yaml.org/ YAML format], and should be human readable & writable. Description of what the different options mean can be found below.
