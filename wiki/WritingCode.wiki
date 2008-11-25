@@ -1,5 +1,5 @@
 #summary Introducion to the PyMei codebase, and how to contribute.
-#labels Featured,Phase-Implementation
+#labels Featured,Phase-Implementation,Documentation
 
 = Introduction =
 
