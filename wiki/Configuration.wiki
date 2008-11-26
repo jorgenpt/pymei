@@ -38,7 +38,7 @@ These are the options in pymei.config as of ~v0.1.
 == mplayer section ==
 
 || *Option name* ||  *Type* || *Description* || *Default value* ||
-|| separate_window || boolean || Wether or not we should get mplayer to use its own window. If this is false, we use the -wid option to mplayer to make it use our window.  This does *NOT* work as expected when using fullscreen mode. See [http://code.google.com/p/pymei/issues/detail?id=4 this bug]. Also, this makes the video stretch-to-fit, see [http://code.google.com/p/pymei/issues/detail?id=5 this bug ] || true ||
+|| separate_window || boolean || Wether or not we should get mplayer to use its own window. If this is false, we use the -wid option to mplayer to make it use our window. || false ||
 
 == menu section ==
 
