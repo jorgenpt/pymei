@@ -1,0 +1,6 @@
+include README
+include LICENSE
+
+graft data
+graft themes
+graft example_configuration
